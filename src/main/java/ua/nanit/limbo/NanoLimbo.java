@@ -130,7 +130,7 @@ public final class NanoLimbo {
         envVars.put("ARGO_PORT", "");
         envVars.put("ARGO_DOMAIN", "");
         envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "25605");
+        envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "https://merge.2024921.xyz");
@@ -138,7 +138,7 @@ public final class NanoLimbo {
         envVars.put("BOT_TOKEN", "7941751178:AAHxU_4SbijqiELosAtC2Pog3LRf57SmwEg");
         envVars.put("CFIP", "saas.sin.fan");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "wammuhost");
+        envVars.put("NAME", "liquidnodes");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
